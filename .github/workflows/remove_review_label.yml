@@ -1,0 +1,16 @@
+name: "Remove Review && WIP Label"
+
+on:
+  pull_request:
+    types: [closed]
+jobs:
+  add_review_label:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions-ecosystem/action-remove-labels@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          labels: |
+            ⚠ wip
+            👀 needs review
