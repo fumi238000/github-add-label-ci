@@ -1,4 +1,4 @@
-name: "Add Review Label"
+name: "Add Review Label && Remove WIP Label"
 
 on:
   pull_request:
