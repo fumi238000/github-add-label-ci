@@ -2,6 +2,12 @@
 - draft と open を切り替えたとき、ラベルを付け替えるCIをテスト
 - プルリクをマージした時、wipとreviewのラベルを削除する
 
+## キャプチャ
+
+https://user-images.githubusercontent.com/64491435/193756945-289e113c-e188-4813-a150-c2ca5a8757e5.mov
+
+
+
 ## 作成手順
 - [x] ラベルを2つ作成する
 - [x] 以下のファイルを`.github/workflows/＊`に配置
